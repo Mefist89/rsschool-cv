@@ -11,8 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="resume__header">
-            <div class="resume__header__name">
+        <header class="resume__header__name">
                 <nav>
                     <ul>
                         <li class="nav__item"><a href="#about-me">About me</a></li>
@@ -24,10 +23,9 @@
                         <li class="nav__item"><a href="#education">Education</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
-        <div class="resume__container">
-            <div class="resume__information">
+        </header>
+        <main class="resume__container">
+            <section class="resume__information">
                 <div class="resume__profile">
                     <img src="img/logo.jpg" alt="default pic" class="image">
                     <div class="details">
@@ -50,7 +48,7 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="col">
-                            <span>jeniabortnic@gmail.com</span>
+                            <span>jeniabor@gmail.com</span>
                         </div>
                     </div>
                     <div class="row mb-2">
@@ -97,8 +95,8 @@
                         <div class="progress-bar" style="width: 60%;">60%</div>
                     </div>
                 </div>
-            </div>
-            <div class="resume__information">
+            </section>
+            <section class="resume__information">
                 <div class="resume__intro">
                     <h1 id="about-me">ABOUT ME</h1>
                     <p>As a junior web developer with a passion for front-end development, I am constantly seeking to expand my knowledge and skills in web design and development. I embrace challenges and am a quick learner, always eager to learn something new. I am continually experimenting with different techniques and methods to improve my skills in web development.</p>
@@ -196,7 +194,7 @@ function humanReadable (seconds) {
     let h = Math.floor(seconds / 3600)
     let m = Math.floor((seconds - h*3600)/60)
     let s = seconds - h*3600 - m*60;
-    return `${Math.trunc(h/10)}${h%10}:${Math.trunc(m/10)}${m%10}:${Math.trunc(s/10)}${s%10}`;                 
+    return ${Math.trunc(h/10)}${h%10}:${Math.trunc(m/10)}${m%10}:${Math.trunc(s/10)}${s%10};                 
     }
                                             </code>  
                                         </pre>  
@@ -204,16 +202,14 @@ function humanReadable (seconds) {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </section>
+                </main>
             </div>
         </div>
-        <footer>
-            <div class="footer__container">
-                <span class="icon"><a href="https://github.com/atem89"><ion-icon name="logo-github"></ion-icon></a></span>
-                <span class="text">2024</span>
-                <a href="https://rs.school/js/" target="_blank"> <img src="img/rs-logo.svg" width="86" height="32" alt="RS School"></a>
-            </div>
+        <footer class="footer__container">
+            <span class="icon"><a href="https://github.com/Mefist89"><i class="fa-brands fa-github"></i></a></span>
+            <span class="text">2024</span>
+            <a href="https://rs.school/js/" target="_blank"> <img src="img/rs-logo.svg" width="86" height="32" alt="RS School"></a>
         </footer>
     </div>
 </body>
