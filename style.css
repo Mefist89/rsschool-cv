@@ -235,14 +235,6 @@ body {
     margin: 2px 0px;
 }
     
-.resume__header__name ul li ul.dropdown {
-    width:auto;
-    background: #00FF8C;
-    position: absolute;
-    z-index: 999;
-    display: none;
-}
-    
 .resume__header__name ul li a:hover {
     background: #222;
 }
@@ -251,11 +243,36 @@ body {
     display: block;
 }
 
-.burger {
-    display: none;
-}
-
 .details .title a {
     text-decoration: none;
 }
 
+.footer__container {
+    
+    left: 0;
+    right: 0;
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+    }
+
+.footer__container a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+.footer__container .icon {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.footer__container span {
+    color: #fff;
+    font-size: 1.2em;
+}

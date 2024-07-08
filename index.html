@@ -72,6 +72,13 @@
                     </ul>
                 </div>
                 <div class="resume__side-section">
+                    <p class="title" id="strengths">LANGUAGES</p>
+                    <ul class="list">
+                        <li>English (A2)</li>
+                        <li>Russian (Native)</li>
+                    </ul>
+                </div>
+                <div class="resume__side-section">
                     <p class="title" id="skills">SKILLS</p>
                     <div class="my-2">HTML</div>
                     <div class="progress">
@@ -79,7 +86,7 @@
                     </div>
                     <div class="my-2">CSS</div>
                     <div class="progress">
-                        <div class="progress-bar" style="width: 70%;">80%</div>
+                        <div class="progress-bar" style="width: 80%;">80%</div>
                     </div>
                     <div class="my-2">JavaScript</div>
                     <div class="progress">
@@ -87,7 +94,7 @@
                     </div>
                     <div class="my-2">React JS</div>
                     <div class="progress">
-                        <div class="progress-bar" style="width: 70%;">60%</div>
+                        <div class="progress-bar" style="width: 60%;">60%</div>
                     </div>
                 </div>
             </div>
@@ -172,9 +179,42 @@
                             </div>
                         </div>
                     </div>
+                    <div class="resume__section">
+                        <div class="header">
+                            <div class="logo">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <p class="title" id="code-example">CODE</p>
+                        </div>    
+                            <div class="details">
+                            
+                                <div class="info">
+                                    <p class="title">
+                                        <pre>
+                                            <code>
+function humanReadable (seconds) {
+    let h = Math.floor(seconds / 3600)
+    let m = Math.floor((seconds - h*3600)/60)
+    let s = seconds - h*3600 - m*60;
+    return `${Math.trunc(h/10)}${h%10}:${Math.trunc(m/10)}${m%10}:${Math.trunc(s/10)}${s%10}`;                 
+    }
+                                            </code>  
+                                        </pre>  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer__container">
+                <span class="icon"><a href="https://github.com/atem89"><ion-icon name="logo-github"></ion-icon></a></span>
+                <span class="text">2024</span>
+                <a href="https://rs.school/js/" target="_blank"> <img src="img/rs-logo.svg" width="86" height="32" alt="RS School"></a>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
