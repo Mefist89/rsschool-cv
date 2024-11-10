@@ -17,3 +17,8 @@ return array;
 
 const array = [1, 2, 3, 4, 5];
 console.log(invert(array));
+
+## [Body Start - Fitness Club](https://github.com/atem89)
+***Project***: Body Start - Fitness Club Website
+***Description***: Developed a professional website for Body Start - Fitness Club to enhance online presence and attract new clients.
+***Technologies***: HTML, CSS
