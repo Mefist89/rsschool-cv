@@ -6,3 +6,14 @@
 
 # JavaScript, GIT, HTML/CSS, MySQL
 
+# Codewars
+`javascript`
+function invert(array) {
+for (let i = 0; i < array.length; i++) {
+array[i] *= -1;
+}
+return array;
+}
+
+const array = [1, 2, 3, 4, 5];
+console.log(invert(array));
