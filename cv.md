@@ -22,3 +22,11 @@ console.log(invert(array));
 ***Project***: Body Start - Fitness Club Website
 ***Description***: Developed a professional website for Body Start - Fitness Club to enhance online presence and attract new clients.
 ***Technologies***: HTML, CSS
+
+## Education
+***14.09.2020 — 30.06.2021***
+### Professional Retraining program for Informatics, Institute of Continuous Training, Chisinau
+***01.09.2018 — 14.06.2020***
+### Degree of Master of Economics, Cahul State University "Bogdan Petriceicu Hajdeu"
+
+***I have beginner-level knowledge in English, focusing on basic vocabulary and simple sentences for everyday conversation. My practice includes understanding and using common expressions, introducing myself, and asking and answering simple questions.***
