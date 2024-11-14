@@ -19,20 +19,25 @@
       <header class="resume__header__name">
         <nav>
           <ul>
-            <li class="nav__item"><a href="#about-me">About me</a></li>
-            <li class="nav__item"><a href="#skills">Skills</a></li>
-            <li class="nav__item"><a href="#strengths">Strengths</a></li>
-            <li class="nav__item"><a href="#code-example">Code</a></li>
-            <li class="nav__item"><a href="#projects">Projects</a></li>
-            <li class="nav__item"><a href="#contact">Contact</a></li>
-            <li class="nav__item"><a href="#education">Education</a></li>
+            <li class="nav__item"><a href="#skills">Skills Section</a></li>
+            <li class="nav__item">
+              <a href="#strengths">Strengths Section</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code-example">Code Example Section</a>
+            </li>
+            <li class="nav__item"><a href="#projects">Projects Section</a></li>
+            <li class="nav__item"><a href="#contact">Contact Section</a></li>
+            <li class="nav__item">
+              <a href="#education">Education Section</a>
+            </li>
           </ul>
         </nav>
       </header>
       <main class="resume__container">
         <section class="resume__information">
           <div class="resume__profile">
-            <img src="img/logo.jpg" alt="default pic" class="image" />
+            <img src="img/logo.jpg" alt="Profile Picture" class="image" />
             <div class="details">
               <p class="title">Bortnic Eugeniu</p>
               <p class="subtitle">Front-End Developer</p>
@@ -83,30 +88,14 @@
           </div>
           <div class="resume__side-section">
             <p class="title" id="skills">SKILLS</p>
-            <div class="my-2">HTML</div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%">
-                90%
-              </div>
-            </div>
-            <div class="my-2">CSS</div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%">
-                80%
-              </div>
-            </div>
-            <div class="my-2">JavaScript</div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%">
-                70%
-              </div>
-            </div>
-            <div class="my-2">React JS</div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 60%">
-                60%
-              </div>
-            </div>
+            <p>HTML</p>
+            <progress value="90" max="100">90%</progress>
+            <p>CSS</p>
+            <progress value="80" max="100">80%</progress>
+            <p>JavaScript</p>
+            <progress value="70" max="100">70%</progress>
+            <p>React JS</p>
+            <progress value="60" max="100">60%</progress>
           </div>
         </section>
         <section class="resume__information">
@@ -218,7 +207,7 @@
                   <a
                     href="https://extraordinary-cuchufli-08a724.netlify.app/"
                     target="_blank"
-                    ><b>Currency</b></a
+                    ><b>Currency Project</b></a
                   >
                 </p>
               </div>
@@ -230,7 +219,7 @@
                   <a
                     href="https://cosmic-daifuku-f45062.netlify.app/"
                     target="_blank"
-                    ><b>Digital Clock</b></a
+                    ><b>Digital Clock Project</b></a
                   >
                 </p>
               </div>
@@ -241,24 +230,24 @@
               <div class="logo">
                 <i class="fas fa-code"></i>
               </div>
-              <p class="title" id="code-example">CODE</p>
+              <p class="title" id="code-example">CODE EXAMPLE</p>
             </div>
             <div class="details">
-              <div class="year">JavaScript example</div>
+              <div class="year">JavaScript Example</div>
               <div class="info">
                 <p class="title"><b>JavaScript</b></p>
                 <pre>
-                            <code>
-                                function initAnimation() {
-                                    let words = ["Learning", "Programming", "Innovation"];
-                                    let index = 0;
-                                    setInterval(() => {
-                                        document.getElementById("word").textContent = words[index];
-                                        index = (index + 1) % words.length;
-                                    }, 1500);
-                                }
-                            </code>
-                            </pre>
+                    <code>
+                        function initAnimation() {
+                            let words = ["Learning", "Programming", "Innovation"];
+                            let index = 0;
+                            setInterval(() =&gt; {
+                            document.getElementById("word").textContent = words[index];
+                            index = (index + 1) % words.length;
+                            }, 1500);
+                        }
+                    </code>
+                </pre>
               </div>
             </div>
           </div>
